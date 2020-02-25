@@ -61,3 +61,39 @@ Once you add directories to the development folder they will show up here. For n
 Doing so gives me this screen
 
 ![wordpress-setup1](/assets/src/wordpress-setup1.png)
+
+Select your language and click Continue.
+
+The information entered on the next screen is used to set up the database for your wordpress website
+
+![worpress-setup2](/assets/src/wordpress-setup2.png)
+
+Ok, let's stop here and setup the database first to make sure things run as smooth as possible. 
+
+In your browser got to localhost/phpmyadmin. This will take you to your Apache server's MySQL databse where we can configure everything needed ahead of time. 
+
+![phpmyadmin](/assets/src/phpmyadmin-screen.png)
+
+From here click New in your left sidebar.
+
+Make a database name (I used the name wordpress_test for mine). Click create.
+
+Go back to your other wordpress tab in your browser and click Let's Go to continue. 
+
+![database-setup-screen](/assets/src/database-setup-screen.png)
+
+If you forget what you type into these fields to setup your database you can always check the wp_config.php file that gets created after this screen. 
+
+Default settings should be "root" for Username and "root" for password. 
+
+Database host means to find the website on wordpress_test database you would enter localhost/wordpress_test into your browser.
+
+Don't change your table prefix. Go ahead and click Submit.
+
+![finished-setup](/assets/src/installation-complete.png)
+
+When you see this screen you are almost finished.
+
+![website-setup](/assets/src/website-setup.png)
+
+Fill in the required forms and click Install Wordpress.
